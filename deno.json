@@ -1,0 +1,19 @@
+{
+    "lint": {
+        "rules": {
+            "tags": [
+                "recommended"
+            ],
+            "include": [
+                "ban-untagged-todo"
+            ],
+            "exclude": [
+                "no-unused-vars"
+            ]
+        }
+    },
+    "tasks": {
+        "dev": "deno run --allow-net --allow-read --allow-env --allow-write mod.ts"
+    },
+    "exports": "./mod.ts"
+}
